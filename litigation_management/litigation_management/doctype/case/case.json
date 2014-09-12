@@ -1,0 +1,256 @@
+{
+ "allow_copy": 0, 
+ "allow_import": 0, 
+ "allow_rename": 0, 
+ "creation": "2014-09-11 15:27:55.456585", 
+ "custom": 0, 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Transaction", 
+ "fields": [
+  {
+   "fieldname": "litigator_details", 
+   "fieldtype": "Section Break", 
+   "label": "Litigator Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "litigator", 
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 1, 
+   "label": "Litigator", 
+   "no_copy": 0, 
+   "options": "Litigator", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 1, 
+   "search_index": 0, 
+   "set_only_once": 0
+  }, 
+  {
+   "fieldname": "column_break_4", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "litigator_address", 
+   "fieldtype": "Read Only", 
+   "label": "Litigator Address", 
+   "options": "litigator.litigator_address", 
+   "permlevel": 0, 
+   "precision": "", 
+   "read_only": 1
+  }, 
+  {
+   "fieldname": "petitioner_details", 
+   "fieldtype": "Section Break", 
+   "label": "Petitioner Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "petitioner", 
+   "fieldtype": "Link", 
+   "label": "Petitioner", 
+   "options": "Petitioner", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "column_break_7", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "petitioner_address", 
+   "fieldtype": "Read Only", 
+   "label": "Petitioner Address", 
+   "options": "petitioner.petitioner_address", 
+   "permlevel": 0, 
+   "precision": "", 
+   "read_only": 1
+  }, 
+  {
+   "fieldname": "amended_from", 
+   "fieldtype": "Link", 
+   "label": "Amended From", 
+   "no_copy": 1, 
+   "options": "Case", 
+   "permlevel": 0, 
+   "print_hide": 1, 
+   "read_only": 1
+  }, 
+  {
+   "fieldname": "court_details", 
+   "fieldtype": "Section Break", 
+   "label": "Court Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "court_name", 
+   "fieldtype": "Link", 
+   "label": "Court Name", 
+   "options": "Court", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "2", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "court_address", 
+   "fieldtype": "Read Only", 
+   "label": "Court Address", 
+   "options": "court_name.address", 
+   "permlevel": 0, 
+   "precision": "", 
+   "read_only": 1
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "case_details", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Case Details", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0
+  }, 
+  {
+   "fieldname": "case_no", 
+   "fieldtype": "Data", 
+   "label": "Case No.", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "case_status", 
+   "fieldtype": "Data", 
+   "label": "Case Status", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "case_description", 
+   "fieldtype": "Small Text", 
+   "label": "Case Description", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "column_break_12", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "lawyer", 
+   "fieldtype": "Data", 
+   "label": "Lawyer/Law Firms Name", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "contact", 
+   "fieldtype": "Data", 
+   "label": "Contact No.", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "email_id", 
+   "fieldtype": "Data", 
+   "label": "Email ID", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "laywer_address", 
+   "fieldtype": "Small Text", 
+   "label": "Laywer Address", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "case_key_points_details", 
+   "fieldtype": "Section Break", 
+   "label": "Case Key Points Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "key_points", 
+   "fieldtype": "Table", 
+   "label": "Key Points", 
+   "options": "Key Points", 
+   "permlevel": 0, 
+   "precision": ""
+  }
+ ], 
+ "hide_heading": 0, 
+ "hide_toolbar": 0, 
+ "icon": "icon-file-text", 
+ "in_create": 0, 
+ "in_dialog": 0, 
+ "is_submittable": 1, 
+ "issingle": 0, 
+ "istable": 0, 
+ "modified": "2014-09-11 16:35:02.409471", 
+ "modified_by": "Administrator", 
+ "module": "Litigation Management", 
+ "name": "Case", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "amend": 0, 
+   "apply_user_permissions": 0, 
+   "cancel": 0, 
+   "create": 1, 
+   "delete": 1, 
+   "email": 0, 
+   "export": 0, 
+   "import": 0, 
+   "permlevel": 0, 
+   "print": 0, 
+   "read": 1, 
+   "report": 0, 
+   "role": "All", 
+   "set_user_permissions": 0, 
+   "submit": 0, 
+   "write": 1
+  }
+ ], 
+ "read_only": 0, 
+ "read_only_onload": 0, 
+ "sort_field": "modified", 
+ "sort_order": "DESC"
+}

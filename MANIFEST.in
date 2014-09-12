@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include litigation_management *.css
+recursive-include litigation_management *.csv
+recursive-include litigation_management *.html
+recursive-include litigation_management *.ico
+recursive-include litigation_management *.js
+recursive-include litigation_management *.json
+recursive-include litigation_management *.md
+recursive-include litigation_management *.png
+recursive-include litigation_management *.py
+recursive-include litigation_management *.svg
+recursive-include litigation_management *.txt
+recursive-exclude litigation_management *.pyc
